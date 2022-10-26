@@ -1,2 +1,2 @@
 # Dual Regression Net
-Reimplementation of DRN https://arxiv.org/abs/2003.07018
+Reimplementation of 4x DRN https://arxiv.org/abs/2003.07018
