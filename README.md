@@ -6,10 +6,10 @@
 ### PSNR
 |Dataset|Bicubic|DRN|
 |:---:|:---:|:---:|
-|Set5|28.648|32.503 *(-0.237)|
-|Set14|26.406|29.213 *(+0.233)|
-|Urban100|23.220|26.677 *(-0.353)|
-<p>*(number) means PSNR difference compared to the paper.</p>
+|Set5|28.648|32.503 (-0.237)|
+|Set14|26.406|29.213 (+0.233)|
+|Urban100|23.220|26.677 (-0.353)|
+<p>(number) means PSNR difference compared to the paper.</p>
 
 ### Set14
 | GT | Bicubic | DRN |
@@ -22,6 +22,7 @@
 |Item|Setting|
 |:---:|:---:|
 |Train Data|DIV2K, PASCAL VOC|
+|Crop|32 x 32|
 |Validation Data|DIV2K|
 |Test Data| Set5, Set14, Urban100|
 |Scale| 4x |
